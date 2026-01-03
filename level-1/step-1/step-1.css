@@ -20,7 +20,7 @@
 .content-mid {
     width: 66%;
     /* This height is a placeholder. You will need to make some adjustments to get this container to look like the design. */
-    height: 100px;
+    height: calc( 100vh - 200px );
     background: #B0B0B0;
     float: right;
 }
@@ -32,4 +32,5 @@
     height: 100px;
     background: #3A3A3A;
     clear: both;
+    position: absolute;
 }
